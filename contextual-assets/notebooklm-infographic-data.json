@@ -1,0 +1,25 @@
+{
+  "infographicId": "ag-workflow-metrics-2026",
+  "title": "Antigravity Engineering Velocity & Token Efficiency",
+  "source": "NotebookLM Raw Data Infographic",
+  "metrics": [
+    {
+      "label": "Prompt Engineering Overhead Reduction",
+      "value": 68,
+      "unit": "%",
+      "category": "Skills Reuse"
+    },
+    {
+      "label": "Preview Deployment Turnaround",
+      "value": 18,
+      "unit": "seconds",
+      "category": "Netlify MCP Pipeline"
+    },
+    {
+      "label": "File Conflict Rate with Sequential Async Gate",
+      "value": 0,
+      "unit": "%",
+      "category": "AGENTS.md Formula"
+    }
+  ]
+}

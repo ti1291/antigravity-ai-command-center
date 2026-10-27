@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Antigravity AI Command Center — Connected Integrations</title>
+  <style>
+    :root {
+      --primary: #0F172A;
+      --surface: #1E293B;
+      --border: #334155;
+      --on-surface: #E2E8F0;
+      --muted: #94A3B8;
+      --secondary: #10B981;
+      --tertiary: #F59E0B;
+    }
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+    body {
+      background-color: var(--primary);
+      color: var(--on-surface);
+      font-family: Inter, system-ui, -apple-system, sans-serif;
+      line-height: 1.6;
+      padding: 32px 24px;
+    }
+    .container {
+      max-width: 1080px;
+      margin: 0 auto;
+    }
+    header {
+      border-bottom: 1px solid var(--border);
+      padding-bottom: 24px;
+      margin-bottom: 32px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 16px;
+    }
+    h1 {
+      font-size: 32px;
+      font-weight: 700;
+      letter-spacing: -0.02em;
+    }
+    .badge {
+      background: rgba(16, 185, 129, 0.15);
+      color: var(--secondary);
+      border: 1px solid var(--secondary);
+      padding: 6px 12px;
+      border-radius: 4px;
+      font-family: ui-monospace, SFMono-Regular, Consolas, monospace;
+      font-size: 13px;
+      font-weight: 600;
+    }
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(310px, 1fr));
+      gap: 24px;
+    }
+    .card {
+      background-color: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      padding: 24px;
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+    }
+    .card h2 {
+      font-size: 20px;
+      color: #F8FAFC;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    .card p {
+      color: var(--muted);
+      font-size: 15px;
+    }
+    code {
+      background: #0B1120;
+      color: var(--secondary);
+      padding: 10px 12px;
+      border-radius: 4px;
+      font-family: ui-monospace, SFMono-Regular, Consolas, monospace;
+      font-size: 13px;
+      display: block;
+      overflow-x: auto;
+      border: 1px solid var(--border);
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <div>
+        <h1>Antigravity AI Command Center</h1>
+        <p style="color: var(--muted);">Hyper-Local Memory, Instant Web Hosting, and Autonomous Cloud Run Deployment</p>
+      </div>
+      <span class="badge">[OK] ALL 3 PILLARS CONFIGURED</span>
+    </header>
+
+    <main class="grid">
+      <section class="card">
+        <h2>1. Obsidian Memory Vault</h2>
+        <p>Persistent cross-session memory bridged between <strong>obsidian-vault/</strong> and <strong>.agents/memory/MEMORY.md</strong>.</p>
+        <code>powershell -File .agents/skills/obsidian-memory-sync/scripts/sync-obsidian-memory.ps1</code>
+      </section>
+
+      <section class="card">
+        <h2>2. Netlify MCP &amp; Instant Hosting</h2>
+        <p>Connected via global <strong>@netlify/mcp</strong> and terminal CLI automation for instant preview &amp; production drops.</p>
+        <code>powershell -File .agents/skills/netlify-deploy/scripts/deploy-netlify.ps1 -DeployDir web-app</code>
+      </section>
+
+      <section class="card">
+        <h2>3. Google Cloud CLI (Cloud Run)</h2>
+        <p>Step 0 Auth Verified + Cloud Build source-to-container deployment in <strong>us-central1</strong>.</p>
+        <code>powershell -File .agents/skills/gcp-cloud-run-deploy/scripts/provision-and-deploy-gcp.ps1 -PreFlightOnly</code>
+      </section>
+    </main>
+  </div>
+</body>
+</html>

@@ -1,0 +1,28 @@
+{
+  "generatedAt": "2026-10-27T12:28:34.639764+00:00",
+  "sourceDir": "C:\\Users\\vanes\\.gemini\\antigravity\\scratch\\ai-command-center\\contextual-assets",
+  "totalAssets": 3,
+  "assets": [
+    {
+      "file": "notebooklm-audio-log.json",
+      "category": "audio_log",
+      "sizeBytes": 903,
+      "title": "Antigravity Architecture Deep-Dive (NotebookLM Audio Overview)",
+      "source": "NotebookLM Audio Log Export"
+    },
+    {
+      "file": "notebooklm-infographic-data.json",
+      "category": "data_infographic",
+      "sizeBytes": 620,
+      "title": "Antigravity Engineering Velocity & Token Efficiency",
+      "source": "NotebookLM Raw Data Infographic"
+    },
+    {
+      "file": "notebooklm-video-script.md",
+      "category": "video_script",
+      "sizeBytes": 1343,
+      "title": "Video Script: Mastering Antigravity Workflows",
+      "sceneCount": 3
+    }
+  ]
+}

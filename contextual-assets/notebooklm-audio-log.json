@@ -1,0 +1,23 @@
+{
+  "title": "Antigravity Architecture Deep-Dive (NotebookLM Audio Overview)",
+  "source": "NotebookLM Audio Log Export",
+  "durationSeconds": 412,
+  "audioFile": "antigravity-architecture-overview.mp3",
+  "chapters": [
+    {
+      "timestamp": "00:00",
+      "topic": "The AGENTS.md Explicit Prompt Formula",
+      "summary": "Enforcing sequential planning, upfront clarification, and background async task declarations before file writes."
+    },
+    {
+      "timestamp": "02:15",
+      "topic": "Direct Hosting & Contextual Asset MCP Pipelines",
+      "summary": "Linking Netlify live preview deploys and NotebookLM asset ingestion directly into the IDE loop."
+    },
+    {
+      "timestamp": "04:40",
+      "topic": "Global vs. Project-Scoped Skills",
+      "summary": "Separating cross-workspace utilities (~/.gemini/config/skills/) from repository-specific actions (.agents/skills/)."
+    }
+  ]
+}

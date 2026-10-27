@@ -1,0 +1,63 @@
+{
+  "schemaVersion": "1.0.0",
+  "checksum": "b72ae69a71fceea1",
+  "collections": {
+    "mcp_connections": [
+      {
+        "id": "mcp-netlify",
+        "name": "Netlify Direct Hosting",
+        "transport": "stdio",
+        "status": "connected"
+      },
+      {
+        "id": "mcp-obsidian",
+        "name": "Obsidian Vault Memory",
+        "transport": "stdio",
+        "status": "connected"
+      },
+      {
+        "id": "mcp-assets",
+        "name": "Contextual Assets (NotebookLM)",
+        "transport": "stdio",
+        "status": "connected"
+      }
+    ],
+    "skills_registry": [
+      {
+        "id": "skill-json-cleaner",
+        "scope": "global",
+        "path": "~/.gemini/config/skills/json-data-cleaner"
+      },
+      {
+        "id": "skill-design-system",
+        "scope": "global",
+        "path": "~/.gemini/config/skills/custom-design-system"
+      },
+      {
+        "id": "skill-netlify-preview",
+        "scope": "global",
+        "path": "~/.gemini/config/skills/netlify-preview-pipeline"
+      },
+      {
+        "id": "skill-notebooklm-assets",
+        "scope": "global",
+        "path": "~/.gemini/config/skills/notebooklm-asset-extractor"
+      },
+      {
+        "id": "skill-db-seed",
+        "scope": "project",
+        "path": ".agents/skills/db-seed-runner"
+      },
+      {
+        "id": "skill-flutter-widget",
+        "scope": "project",
+        "path": ".agents/skills/flutter-widget-generator"
+      },
+      {
+        "id": "skill-firebase-sync",
+        "scope": "project",
+        "path": ".agents/skills/firebase-sync-workflow"
+      }
+    ]
+  }
+}
